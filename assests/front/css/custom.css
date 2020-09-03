@@ -1,0 +1,183 @@
+/* general Edit styles*/
+.navbar-brand img{
+    width: 100px;
+}
+.btn.btn-primary{
+    color: #fff !important;
+    background: transparent !important;
+    border:1px solid #2789dd !important;
+}
+.ftco-navbar-light .navbar-nav > .nav-item.active > a{
+    color: #2789dd !important;
+    border:1px solid #2789dd !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover{
+    color: #2789dd !important;
+}
+.slider-text h1:after{
+    background:#2789dd !important;
+}
+.heading-section .subheading,.portfolio-wrap .text .desc .custom-btn,.fa-shopping-basket, .fa-store, .flaticon-blueprint, .fa-phone-alt, .fa-envelope, .fa-map-marker-alt, .fa-facebook, .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-mobile-alt{
+    color: #2789dd !important;
+}
+.ftco-navbar-light.scrolled .nav-link.active{
+    color: #2789dd !important;
+}
+.owl-carousel .owl-dots .owl-dot:after{
+    border: none;
+
+}
+.testimony-section .owl-dots .owl-dot.active{
+    background: #2789dd !important;
+}
+.heading-section .subheading:after,.heading-section .subheading:before{
+    background: #2789dd !important;
+}
+form .submit{
+    color: #fff !important;
+    background: #2789dd !important;
+    border: 1px solid #2789dd ;
+    font-size: 16px;
+}
+.heading-section .subheading, .portfolio-wrap .text .desc .custom-btn{
+    letter-spacing: 0;
+}
+footer{
+    margin-top: 10px;
+    /*margin-bottom: 0 !important;*/
+    /*padding-bottom: 0 !important;*/
+}
+
+
+/*button scroll top*/
+#scrollTop {
+    display: inline-block;
+    background-color: #2789dd;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius:50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+#scrollTop::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 46px;
+    color: #fff;
+}
+#scrollTop:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+#scrollTop:active {
+    background-color: #555;
+}
+#scrollTop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Styles for the content section */
+
+
+@media (min-width: 500px) {
+    #scrollTop {
+        margin: 30px;
+    }
+}
+
+/*button scroll top*/
+
+
+/* begin Our work section */
+.our-work-box{
+    border: 1px solid #c9e6ff;
+    min-height: 400px;
+    height: 450px;
+    padding: 10px;
+    margin: 7px;
+
+}
+/* End Our work section */
+
+
+
+/* socail */
+.box-info .socail-icon-box  .fa-mobile-alt{
+    font-size: 22px;
+}
+/* socail */
+/* contact us*/
+.box-info .socail-icon-box{
+    height: 100%;
+    width: 100%;
+
+}
+.box-info .socail-icon-box .fa-envelope,.box-info .socail-icon-box .fa-facebook-f{
+    font-size: 21px;
+}
+.box-info{
+    display: block;
+    margin-bottom: 60px;
+}
+.box-info .box p{
+    font-size: 15px;
+    margin: 0;
+}
+.box-info .phone{
+    direction: ltr;
+}
+#contact{
+    margin-bottom: 60px;
+}
+.contact form.p-5{
+
+    padding: 3px !important;
+}
+.contact .text-box{
+
+    margin-right: 15px;
+
+}
+.ftco-footer .ftco-footer-widget h2{
+    text-align: center;
+}
+
+
+#particles-js .slider-text h1 ,#particles-js  .slider-text p{
+    color: #ddeeff !important;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
+    color: #d8e9fa;
+}
+.ftco-footer-social li a{
+    padding: 8px;
+    text-align: center;
+}
+
+footer .text{
+    width: 90%;
+    text-align: right;
+    padding: 0 20px;
+}
+
+/* End contact us*/
+
+
+
+/* general Edit styles */

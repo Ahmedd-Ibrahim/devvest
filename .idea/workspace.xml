@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57cd219b-81f8-4ba1-a103-bb539125383f" name="Default Changelist" comment="" />
+    <list default="true" id="57cd219b-81f8-4ba1-a103-bb539125383f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/front/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/css/rtl-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/front/css/rtl-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assests/front/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/layout/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layout/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/layout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layout/header.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +197,9 @@
       <workItem from="1598908633826" duration="2741000" />
       <workItem from="1598948708817" duration="682000" />
       <workItem from="1599123359358" duration="4439000" />
-      <workItem from="1599131055238" duration="1336000" />
+      <workItem from="1599131055238" duration="8158000" />
+      <workItem from="1599146049798" duration="1307000" />
+      <workItem from="1599248604485" duration="6150000" />
     </task>
     <servers />
   </component>
@@ -220,10 +230,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1598629243329" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598911000195">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1599303913793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598911000195" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1599303913793" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599294152583">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599294152583" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -29,6 +29,7 @@
     </section>
     <div >
     </div>
+
     <section class="ftco-section ftco-portfolio about" id="about">
         <div class="row justify-content-center no-gutters">
             <div class="col-md-12 heading-section text-center ftco-animate mb-5">
@@ -109,19 +110,19 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6">
-                  <div class="our-work-box">
-                      <div class="icon d-flex justify-content-center align-items-center "><span class="flaticon-blueprint"></span></div>
-                      <div class="plan-box text-center">
-                          <h3>استشارات إدارية</h3>
-                          <p>
-                              مهمتنا هي تمكينك من فتح باب يطل على المستقبل الرقمي لكي تنقل عالمك التجاري نحوه، نقدم لك خدمات استشارية في مجالات: التخطيط والاستراتيجيات، التحول الرقمي، النمو، الابتكار، وإدارة دورة حياة المنتج والعمليات الخاصة به، وإدارة سلسلة التجهيز لتعظيم فرصك في لعبة الأعمال التجارية.
+                    <div class="our-work-box our-work-box-one">
+                        <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-rocket fa-3x"></i></div>
+                        <div class="plan-box text-center">
+                            <h3>خدمات تطوير تطبيقات الأعمال</h3>
+                            <p>
+                                نقوم بإنشاء تطبيقات للشركات بالتعاون مع مالكيها ونهدف إلى تحقيق غاية وهدف عملائنا بشكل كامل، احتياجاتك، ومتطلباتك ونواياك هي ما يهمنا في عملية تطوير تطبيقات الأعمال.
+                            </p>
+                        </div>
+                    </div>
 
-                          </p>
-                      </div>
-                  </div>
                 </div>
                   <div class="col-md-4 col-sm-6">
-                  <div class="our-work-box">
+                  <div class="our-work-box our-work-box-one">
                       <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-store fa-3x"></i></div>
                       <div class="plan-box text-center">
                           <h3>تمكين المبيعات</h3>
@@ -132,8 +133,8 @@
                   </div>
                 </div>
                   <div class="col-md-4 col-sm-6">
-                  <div class="our-work-box">
-                      <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-shopping-basket  fa-3x"></i></div>
+                  <div class="our-work-box our-work-box-one">
+                      <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-database fa-3x"></i></div>
                       <div class="plan-box text-center">
                           <h3>التطوير البرمجي</h3>
                           <p>
@@ -144,51 +145,125 @@
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
-                  <div class="our-work-box">
-                      <div class="icon d-flex justify-content-center align-items-center "><span class="flaticon-blueprint"></span></div>
-                      <div class="plan-box text-center">
-                          <h3>خدمات تطوير تطبيقات الأعمال</h3>
-                          <p>
-                              نقوم بإنشاء تطبيقات للشركات بالتعاون مع مالكيها ونهدف إلى تحقيق غاية وهدف عملائنا بشكل كامل، احتياجاتك، ومتطلباتك ونواياك هي ما يهمنا في عملية تطوير تطبيقات الأعمال.
-                          </p>
-                      </div>
-                  </div>
+                    <div class="our-work-box our-work-box-two">
+                        <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-tasks fa-3x"></i></div>
+                        <div class="plan-box text-center">
+                            <h3>استشارات إدارية</h3>
+                            <p>
+                                مهمتنا هي تمكينك من فتح باب يطل على المستقبل الرقمي لكي تنقل عالمك التجاري نحوه، نقدم لك خدمات استشارية في مجالات: التخطيط والاستراتيجيات، التحول الرقمي، النمو، الابتكار، وإدارة دورة حياة المنتج والعمليات الخاصة به، وإدارة سلسلة التجهيز كما نقوم بإعداد نماذج الأعمال التجارية عن طريق استخدام المنهجيات الحديثة مثل: Lean Startup و Agile لتعظيم فرصك في لعبة الأعمال التجارية.
+                            </p>
+                        </div>
+                    </div>
                 </div>
                   <div class="col-md-4 col-sm-6">
-                  <div class="our-work-box">
-                      <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-store fa-3x"></i></div>
+                  <div class="our-work-box our-work-box-two">
+                      <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-tablet-alt fa-3x"></i></div>
                       <div class="plan-box text-center">
                           <h3>خدمات تطوير تطبيقات الجوال</h3>
                           <p>
                               نقوم ببرمجة وتطوير جميع مشاريع الأجهزة الجوالة، بمختلف المقاييس والتعقيد بدءًا من تطبيقات الشركات إلى تطبيقات الجوال المستقلة.
                               سنساعدك للوصول إلى جمهور الجوال المناسب لك من الفكرة الأولية إلى تصميم المنتج النهائي، يوفر فريق التطوير بشركة ديفيست تطبيقات مخصصة للهاتف الجوال تلبي معاييرك وتساعد عملك على البقاء عل ى اتصال باللعبة الرقمية،
                               ومع مستوى الابتكار والجودة الذي نضعه في كل تطبيق من تطبيقاتنا يمكننا تعزيز علاقتك بعميلك، وتحسين تجربة المستخدم الشاملة على أجهزتهم الجوالة.
+
                           </p>
                       </div>
                   </div>
                 </div>
                   <div class="col-md-4 col-sm-6">
-                  <div class="our-work-box">
+                  <div class="our-work-box our-work-box-two">
                       <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-shopping-basket  fa-3x"></i></div>
                       <div class="plan-box text-center">
                           <h3>خدمات تصميم وبرمجة المواقع والمتاجر الالكترونية</h3>
                           <p>
-                              أطلق عنان مشروعك أو تجارتك لقوة الويب، اترك معنا أفضل أول انطباع لدى عميلك سنجعلك تظهر بشكل محترف على شاشة الكومبيوتر، حيث نقوم بمواءمة مواهب وخبرات فريق ديفيست لإنشاء مواقع ومتاجر الكترونية تفاعلية فريدة من نوعها لتلبية أهداف عملك، حيث نقوم بمزج أفكار التصميم المبتكرة مع المفاهيم المعترف بها على نطاق واسع، ديفيست ستجعلك سيد اللعبة وستجعل منتجاتك وخدماتك متاحة للملايين.</p>
+                              أطلق عنان مشروعك أو تجارتك لقوة الويب، اترك معنا أفضل أول انطباع لدى عميلك سنجعلك تظهر بشكل محترف على شاشة الكومبيوتر، حيث نقوم بمواءمة مواهب وخبرات فريق ديفيست لإنشاء مواقع ومتاجر الكترونية تفاعلية فريدة من نوعها لتلبية أهداف عملك، حيث نقوم بمزج أفكار التصميم المبتكرة مع المفاهيم المعترف بها على نطاق واسع، ديفيست ستجعلك سيد اللعبة وستجعل منتجاتك وخدماتك متاحة للملايين.
+                          </p>
                       </div>
                   </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-4 col-sm-6">
                     <div class="our-work-box">
                         <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-shopping-basket  fa-3x"></i></div>
                         <div class="plan-box text-center">
-                            <h3>نصمم هوية تجارية كاملك لك</h3>
+                            <h3>نصمم هوية تجارية كاملة لك</h3>
                             <p>
                                 نقوم بتصميم العلامات التجارية للشركات بعناية
 
                                 لأن علامتك التجارية هي الانطباع الذي تتركه شركتك في أذهان عملائك الحاليين والمحتملين والموظفين أيضًا، ولأنها توضح رؤيتك، هويتك، وأهدافك.
-                                تساعد ديفيست الشركات على الظهور لعملائها بأفضل هوية بصرية ممكنة ولأجل ذلك لدينا فريق عمل مختص ومحترف من المصممين لنجعلك تظهر بأفضل شكل ممكن لنجعلك تتميز بين منافسينك في اللعبة الرقمية.                            </p>
+
+                                تساعد ديفيست الشركات على الظهور لعملائها بأفضل هوية بصرية ممكنة ولأجل ذلك لدينا فريق عمل مختص ومحترف من المصممين لنجعلك تظهر بأفضل شكل ممكن لنجعلك تتميز بين منافسينك في اللعبة الرقمية.
+
+
+                            </p>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="our-work-box">
+                        <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-shopping-basket  fa-3x"></i></div>
+                        <div class="plan-box text-center">
+                            <h3>تصاميم مبتكرة</h3>
+                            <p>
+                                لأن التصاميم هي اللغة البصرية التي تنقل شخصية شركتك إلى عالم متسع من العملاء المحتملين قبل أن تقابلهم.
+                                وتلهم الأشخاص للعمل معك من الانطباع الأول لاحترافية تصاميم شركتك،
+                                يعمل المصممون الموهوبون لدينا معك لفهم طبيعة عملك وفهم الرسالة التي تحتاج أن تعبر عنها، من خلال تطبيق نظرية الألوان والتكوين والتخطيط والمنظور بمهارة، في النهاية سنبتكر لك صورة لها تأثير فوري وقوة بقاء لا تُمحى.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="our-work-box">
+                        <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-shopping-basket  fa-3x"></i></div>
+                        <div class="plan-box text-center">
+                            <h3>التسويق عبر مواقع التواصل الاجتماعي</h3>
+                            <p>
+                                لتحقيق أهدافك التجارية، نساعدك في التسويق عبر مواقع التواصل الاجتماعي عن طريق:
+                                -اعداد خططك التسويقية بشكل متكامل
+                                -نحلل منافسينك
+                                -نصل لأفضل عملائك المحتملين عن طريق جمهور مستهدف مناسب لعملك
+                                -نصمم لك تصميمات مبتكرة
+
+                                -ندير حملاتك الإعلانية الممولة بشكل كامل، ونحلل نتائجها بشكل دوري
+                                -نكتب المحتوى المناسب لجمهورك المستهدف.
+
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-6">
+                    <div class="our-work-box our-work-box-last">
+                        <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-shopping-basket  fa-3x"></i></div>
+                        <div class="plan-box text-center">
+                            <h3>التسويق عبر محركات البحث وتحسين نتائجها (SEO and SEM)</h3>
+                            <p>
+
+                                لدينا خبرة ومعرفة قوية لجميع المعايير التي تستخدمها المحركات الرئيسية مثل Google و Bing لتصنيف مواقع الويب، حيث نبقى على اطلاع دائم بجميع تحديثات وتعديلات القواعد.
+
+                                لن نضمن لك الترتيب لأن لا أحد يستطيع ذلك،
+
+                                ولكن ما سنفعله هو مساعدتك في
+
+                                إنشاء محتوى الويب الخاص بك
+
+                                وتنظيمه وتحسينه
+
+                                بحيث تكون مرئيًا عندما يكون الأمر مهمًا (عندما يبحث عملاؤك المحتملون عن الخدمات التي تقدمها)
+
+                                تحسين محركات البحث الفعال ليس سحرًا.
+
+                                    إنها معرفة كيفية عمل خوارزميات محركات البحث والاستفادة من المحتوى الخاص بك
+
+                                    لجذب جمهورك المستهدف.
+                                حيث يعد تسويق المحتوى ضروريًا جدًا لدفع عملك إلى الأمام، المحتوى الجيد يؤدي إلى جعل الكلمات الافتتاحية تتصدر محركات البحث وتعمل جنبًا إلى جنب مع تقنيات تحسين محرك البحث الذكي (SEO).
+                                وهذا ما سيساعد شركتك على توليد عملاء محتملين، وتنمية جمهورك على وسائل التواصل الاجتماعي، وإبقائك في صدارة منافسيك داخل اللعبة.
+
+                            </p>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

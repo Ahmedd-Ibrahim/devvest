@@ -9,7 +9,7 @@
 }
 .ftco-navbar-light .navbar-nav > .nav-item.active > a{
     color: #2789dd !important;
-    border:1px solid #2789dd !important;
+    /*border:1px solid #2789dd !important;*/
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
@@ -22,12 +22,26 @@
 .slider-text h1:after{
     background:#2789dd !important;
 }
-.heading-section .subheading,.portfolio-wrap .text .desc .custom-btn,.fa-shopping-basket, .fa-store, .flaticon-blueprint, .fa-phone-alt, .fa-envelope, .fa-map-marker-alt, .fa-facebook, .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-mobile-alt{
+.heading-section .subheading,.portfolio-wrap .text .desc .custom-btn,.fa-shopping-basket, .fa-store, .flaticon-blueprint,
+.fa-phone-alt, .fa-envelope, .fa-map-marker-alt, .fa-facebook, .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-mobile-alt,
+.fa-rocket, .fa-tablet-alt, .fa-tasks, .fa-database, .fa-palette{
     color: #2789dd !important;
 }
 .ftco-navbar-light.scrolled .nav-link.active{
     color: #2789dd !important;
 }
+.ftco-navbar-light.scrolled .nav-link{
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+/* begin navbar */
+
+/*.ftco-navbar-light .navbar-nav > .nav-item.active > a{*/
+/*    padding-top: 3px !important;*/
+/*    padding-bottom: 3px !important*/
+/*}*/
+
+/*End navbar */
 .owl-carousel .owl-dots .owl-dot:after{
     border: none;
 
@@ -99,6 +113,13 @@ footer{
     #scrollTop {
         margin: 30px;
     }
+
+}
+@media (max-width: 750px) {
+
+    *{
+        overflow-x: hidden;
+    }
 }
 
 /*button scroll top*/
@@ -107,21 +128,45 @@ footer{
 /* begin Our work section */
 .our-work-box{
     border: 1px solid #c9e6ff;
-    min-height: 400px;
-    height: 450px;
+    min-height: 455px;
     padding: 10px;
     margin: 7px;
 
 }
+.our-work-box p{
+    font-size: 15px;
+    text-align: right;
+}
+.our-work-box-one{
+    min-height: 375px;
+}
+.our-work-box-two{
+    min-height: 508px;
+}
+.our-work-box-last{
+    min-height: auto
+}
+.our-work .last-child{
+    height: 306px;
+    min-height: auto;
+}
+.projects-box{
+    margin: 20px;
+}
+
+/* begin read more style */
+#more {display: none;}
+
+/* End read more style */
+
 /* End Our work section */
-
-
 
 /* socail */
 .box-info .socail-icon-box  .fa-mobile-alt{
     font-size: 22px;
 }
 /* socail */
+
 /* contact us*/
 .box-info .socail-icon-box{
     height: 100%;

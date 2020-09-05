@@ -1,13 +1,7 @@
 body{
     font-family: 'Cairo', sans-serif;
 }
-/* begin navbar */
-.ftco-navbar-light .navbar-nav > .nav-item.active > a{
-    padding-top: 8px !important;
-     padding-bottom: 8px !important
-}
 
-/*End navbar */
 /* slider */
 .slider-button{
     margin-right: 10px  ;
@@ -21,9 +15,7 @@ body{
 .flaticon-blueprint{
     font-size: 70px;
 }
-.projects-box{
-    margin: 40px;
-}
+
 .fa-shopping-basket,.fa-store, .flaticon-blueprint, .fa-phone-alt, .fa-envelope, .fa-map-marker-alt, .fa-facebook{
     color: #96bb7c;
 }

@@ -310,6 +310,7 @@
 
 /* begin auto active nav sections */
     // if window = section Select this section from nav
+
     var index = $("#index").offset();
     var about = $("#about").offset();
     var ourWork = $("#our-work").offset();
@@ -347,5 +348,12 @@
     });
 
     /* End auto active nav sections */
+
+
+
+/* Begin read more model script */
+
+
+/* End read more model script */
 })(jQuery);
 

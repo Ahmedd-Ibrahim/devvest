@@ -6,27 +6,133 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57cd219b-81f8-4ba1-a103-bb539125383f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/adminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/mailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/adminlte.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/adminlte.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/alt/adminlte.components.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/alt/adminlte.components.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/alt/adminlte.core.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/alt/adminlte.core.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/alt/adminlte.extra-components.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/alt/adminlte.extra-components.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/alt/adminlte.pages.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/alt/adminlte.pages.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/alt/adminlte.plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/alt/adminlte.plugins.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/css/backend.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/AdminLTELogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/default-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/logobar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/dist/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/fontawesome-free/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/icheck-bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/custom/js/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/logobar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/supports/elctra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/supports/hunger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/supports/mars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/images/supports/tafra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/front/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_07_095636_create_mail_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/email/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/email/single.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/footer-script.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/main-header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout/main-sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/admin/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/front/frontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/front/frontController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/emailRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/emailRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/SendMail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/css/bootstrap.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assests/front/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/front/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/front/css/rtl-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/front/css/rtl-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/css/rtl-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/fonts/Cairo/Cairo-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/fonts/flaticon/font/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/fonts/flaticon/font/flaticon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/fonts/flaticon/license/license.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/image_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/image_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/image_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/image_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/image_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/image_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/image_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/team-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/team-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/team-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/team-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/team-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/work-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/work-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/work-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/work-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/work-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/work-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/images/work-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/js/google-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/js/jquery.stellar.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assests/front/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assests/front/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/front/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/layout/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layout/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/layout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layout/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,8 +271,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -199,7 +307,22 @@
       <workItem from="1599123359358" duration="4439000" />
       <workItem from="1599131055238" duration="8158000" />
       <workItem from="1599146049798" duration="1307000" />
-      <workItem from="1599248604485" duration="6150000" />
+      <workItem from="1599248604485" duration="6896000" />
+      <workItem from="1599342877359" duration="1209000" />
+      <workItem from="1599380443201" duration="1266000" />
+      <workItem from="1599388703224" duration="6514000" />
+      <workItem from="1599467491363" duration="17873000" />
+      <workItem from="1599553007473" duration="4863000" />
+      <workItem from="1599561131560" duration="13070000" />
+      <workItem from="1599640567570" duration="23083000" />
+      <workItem from="1599725369130" duration="17974000" />
+      <workItem from="1599901036317" duration="22479000" />
+      <workItem from="1599977635904" duration="11939000" />
+      <workItem from="1600010812750" duration="134000" />
+      <workItem from="1600067414688" duration="5228000" />
+      <workItem from="1600167960563" duration="3000000" />
+      <workItem from="1600171694955" duration="1511000" />
+      <workItem from="1600184675034" duration="686000" />
     </task>
     <servers />
   </component>
@@ -222,6 +345,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600010950136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600010950136" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599488769279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599488769279" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599488769279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599488769279" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599488769279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599488769279" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599488769279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599488769279" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1599123375577">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -230,14 +373,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1598629243329" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1599303913793">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1599743255190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1599303913793" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599294152583">
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1599743255190" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600071059660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599294152583" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600071059660" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,11 @@
+.form-delete{
+    display: inline-block;
+}
+.mailbox-read-message .message-head{
+    color: #CACACA;
+}
+ .mailbox-read-message .message-content{
+     background: #DDD;
+     font-size: 18px;
+     color: #302e2e;
+ }

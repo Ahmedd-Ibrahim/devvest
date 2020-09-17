@@ -4,13 +4,11 @@
     <title>Devest</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    {{--icon--}}
+    <link rel="icon" type="image/png"
+          href="{{asset('assests/front/images/logobar.png')}}">
+    {{--icon--}}
     <link rel="stylesheet" href="{{asset('assests/front/css/animate.css')}}">
-
     <link rel="stylesheet" href="{{asset('assests/front/css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('assests/front/css/owl.theme.default.min.css')}}">
     <link rel="stylesheet" href="{{asset('assests/front/css/magnific-popup.css')}}">
@@ -20,43 +18,18 @@
     <link rel="stylesheet" href="{{asset('assests/front/css/bootstrap-rtl.css')}}">
      {{--End of bootstrap--}}
     <link rel="stylesheet" href="{{asset('assests/front/css/style.css')}}">
-
     {{--my edit--}}
-    <link rel="stylesheet" href="{{asset('assests/front/css/rtl-style.css')}}">
     <link rel="stylesheet" href="{{asset('assests/front/css/custom.css')}}">
-
     {{--End my edit--}}
     {{--noty--}}
     <link rel="stylesheet" href="{{ asset('assests/front/plugins/noty/noty.css') }}">
     <script src="{{ asset('assests/front/plugins/noty/noty.min.js') }}"></script>
-
-    <script>
-        function myFunction() {
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("more");
-            var btnText = document.getElementById("myBtn");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more";
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less";
-                moreText.style.display = "inline";
-            }
-        }
-    </script>
-
     <style>
         @font-face {
             font-family: Cairo;
             src: url({{'assests/front/webfonts/Cairo-Regular.ttf'}});
         }
-
-        * {
-            font-family: Cairo, sans-serif;
-        }
+        * {font-family: Cairo, sans-serif;}
     </style>
 </head>
 <body>
@@ -72,12 +45,11 @@
                 <li class="nav-item about"><a href="#about" class="nav-link"> عن الشركة</a></li>
                 <li class="nav-item our-work"><a href="#our-work" class="nav-link">خدماتنا</a></li>
                 <li class="nav-item projects"><a href="#projects" class="nav-link">المشاريع</a></li>
+                <li class="nav-item testmonails"><a href="#testmonails" class="nav-link">اراء العملاء</a></li>
+                <li class="nav-item supports"><a href="#supports" class="nav-link">الشركاء</a></li>
                 <li class="nav-item contact"><a href="#contact" class="nav-link">تواصل معنا </a></li>
-
             </ul>
         </div>
     </div>
 </nav>
 <!-- END nav -->
-
-

@@ -24,20 +24,22 @@ class emailRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'     =>  'required',
-            'email'  =>  'required|email',
-            'subject'  =>  'required',
-            'message' =>  'required'
+            'name'     =>  'required|max:100',
+            'email'  =>  'required|email|max:100',
+            'subject'  =>  'required|max:255',
+            'phone'  =>  'required|max:100|min:6',
+            'messages' =>  'required|max:500'
         ];
     }
+
     public function messages()
     {
         return [
             'name.required'     =>  'الاسم مطلوب ',
             'email.required'  =>  'الاميل الالكتروني مطلوب',
-            'email.email'  =>  'ادخل الاميل الاليكتروني بشكل صحيح',
+            'email.email'  =>  'ادخل الاميل الالكتروني بشكل صحيح',
             'subject.required'  =>  'عنوان الموضوع مطلوب',
-            'message.required' =>  'الرسالى مطلوبة'
+            'messages.required' =>  'الرسالة مطلوبة'
         ];
     }
 }

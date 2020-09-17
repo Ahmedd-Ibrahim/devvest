@@ -19,13 +19,16 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes([
     'register' => false,
-    'login'=>false
+//    'login'=>false
 ]);
 
 
 //Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/testlogin',function (){
+    return view('admin.login');
+});
 
-Route::group(['namespace'=>'front'],function(){
+Route::group(['namespace'=>'front','auth'=>'guest'],function(){
 
     // index route
     Route::get('/','frontController@index')->name('front.index');

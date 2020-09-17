@@ -2,17 +2,6 @@
 
 	"use strict";
 
-
-	$(window).stellar({
-    responsive: true,
-    parallaxBackgrounds: true,
-    parallaxElements: true,
-    horizontalScrolling: false,
-    hideDistantElements: false,
-    scrollProperty: 'scroll'
-  });
-
-
 	var fullHeight = function() {
 
 		$('.js-fullheight').css('height', $(window).height());
@@ -147,7 +136,6 @@
 	};
 	scrollWindow();
 
-
 	var counter = function() {
 
 		$('#section-counter, .hero-wrap, .ftco-counter').waypoint( function( direction ) {
@@ -173,7 +161,6 @@
 
 	}
 	counter();
-
 
 	var contentWayPoint = function() {
 		var i = 0;
@@ -210,39 +197,6 @@
 		} , { offset: '95%' } );
 	};
 	contentWayPoint();
-
-
-	// magnific popup
-	$('.image-popup').magnificPopup({
-    type: 'image',
-    closeOnContentClick: true,
-    closeBtnInside: false,
-    fixedContentPos: true,
-    mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
-     gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-    },
-    image: {
-      verticalFit: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300 // don't foget to change the duration also in CSS
-    }
-  });
-
-  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-    disableOn: 700,
-    type: 'iframe',
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
-
-    fixedContentPos: false
-  });
-
 
 
     /*Begin Change logo on scroll*/
@@ -302,58 +256,104 @@
     });
     /*   End  go to section + smooth scroll */
 //  add class active to nav bar on click
-    $('.navbar-nav .nav-item ').on('click',function (e){
+    $('.navbar-nav .nav-item ').on('click',function (){
 
         $(this).addClass('active').siblings().removeClass('active');
 
     })
-
 /* begin auto active nav sections */
     // if window = section Select this section from nav
-
     var index = $("#index").offset();
     var about = $("#about").offset();
     var ourWork = $("#our-work").offset();
     var contact = $("#contact").offset();
     var projects = $("#projects").offset();
-
-
+    var testmonails = $("#testmonails").offset();
+    var supports = $("#supports").offset();
     $(document).ready(function() {
         $(window).scroll(function(){
-
             var screenPosition = $(document).scrollTop();
             if(screenPosition >= index.top ){
                 $( ".index" ).addClass( "active" );
                 $(".index").siblings().removeClass("active");
             }
-            if (screenPosition >= about.top -100) {
+            if (screenPosition >= about.top -150) {
                 $( ".about" ).addClass( "active" );
                 $(".about").siblings().removeClass("active");
             }
-            if (screenPosition >= ourWork.top -100) {
+            if (screenPosition >= ourWork.top -150 ) {
                 $( ".our-work" ).addClass( "active" );
                 $(".our-work").siblings().removeClass("active");
             }
-            if (screenPosition >= projects.top -100) {
+            if (screenPosition >= projects.top -150) {
                 $( ".projects" ).addClass( "active" );
                 $(".projects").siblings().removeClass("active");
             }
-            if (screenPosition >= contact.top -100 ) {
+            if (screenPosition >= testmonails.top -150) {
+                $( ".testmonails" ).addClass( "active" );
+                $(".testmonails").siblings().removeClass("active");
+            }
+                 if (screenPosition >= supports.top -150) {
+                $( ".supports" ).addClass( "active" );
+                $(".supports").siblings().removeClass("active");
+            }
+            if (screenPosition >= contact.top -150 ) {
                 $( ".contact" ).addClass( "active" );
                 $(".contact").siblings().removeClass("active");
             }
-
         });
-
+    });
+    /* End auto active nav sections */
+/* Begin read more model script */
+    $('.our-work-information .see-more').on('click',function(e){  // select btn and make event
+        e.preventDefault();
+        $(this).parent().parent().find('.text-box').slideToggle(800).toggleClass('done');  // Toggle Silde & add class
+        if($(this).parent().parent().find('.text-box').hasClass('done')){    // toggle text
+            $(this).text('قراءة اقل');
+        }else {
+            $(this).text('اقرأ المزيد');
+        }
     });
 
-    /* End auto active nav sections */
 
-
-
-/* Begin read more model script */
-
-
+/* Begin our supports slide */
+    var oursupports = function() {
+        $('.carousel-support').owlCarousel({
+            center: true,
+            loop: true,
+            rtl: true,
+            autoplay:250,
+            autoplaySpeed:1200,
+            autoplayTimeout:1500,
+            autoplayHoverPause:true,
+            paginationSpeed: 1500,
+            items:1,
+            margin: 30,
+            stagePadding: 0,
+            nav    : true,
+            smartSpeed :900,
+            dots: false,
+            navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+            responsive:{
+                0:{items: 1},
+                600:{items: 2},
+                1000:{items: 3}
+            }
+        });
+    };
+    oursupports();
+/* End  our supports slide*/
+/* begin on load website */
+    $(window).load(function () {
+        // load Element
+        $(".on-load .spinner").fadeOut(2000, function () {
+            $(this).parent().fadeOut(2000, function () {
+                $(".on-load").remove();
+            });
+            // show scroll
+            $("body").css("overflow-y", "auto");
+        });
+    });
+    /* End on load website */
 /* End read more model script */
 })(jQuery);
-

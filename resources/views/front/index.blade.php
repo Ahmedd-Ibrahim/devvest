@@ -124,7 +124,9 @@
                 </div>
                   <div class="col-md-4 col-sm-6">
                   <div class="our-work-information ">
-                      <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fas fa-store fa-3x"></i></div>
+                      <div class="icon d-flex justify-content-center align-items-center projects-box">
+                          <i class="fas fa-store-alt fa-3x"></i>
+                        </div>
                       <div class="plan-box text-center">
                           <h3>تمكين المبيعات</h3>
                           <div class="information-box">
@@ -229,7 +231,10 @@
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="our-work-information ">
-                        <div class="icon d-flex justify-content-center align-items-center projects-box"><i class="fab fa-sketch fa-3x"></i></div>
+                        <div class="icon d-flex justify-content-center align-items-center projects-box">
+
+                            <i class="far fa-gem fa-3x"></i>
+                        </div>
                         <div class="plan-box text-center">
                             <h3>تصاميم مبتكرة</h3>
                             <div class="information-box">
@@ -527,7 +532,7 @@
                         </div>
                     </form>
                 </dive>
-                <dive class="col-md-3 col-sm-12 text-right">
+                <div class="col-md-3 col-sm-12 text-right">
                     <p class="text-right text-box">أو تواصل معنا عبر الوسائل اﻵتية:</p>
                     <a class="box-info ">
                         <div class="col-md-12">
@@ -580,7 +585,7 @@
                           </div>
                         </div>
                     </a>
-                </dive>
+                </div>
             </div>
         </div>
     </section>

@@ -1,3 +1,4 @@
+
 .form-delete{
     display: inline-block;
 }
@@ -9,3 +10,19 @@
      font-size: 18px;
      color: #302e2e;
  }
+.project_progress
+{
+    width: 100px;
+    overflow: hidden;
+}
+.project_progress img{
+    width: 100px;
+}
+#avater
+{
+    width: 100px;
+    overflow: hidden;
+}
+#avater img{
+    width: 100px;
+}

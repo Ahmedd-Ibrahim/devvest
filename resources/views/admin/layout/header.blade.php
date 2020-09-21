@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="{{asset('assests/admin/dist/css/backend.css')}}">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    {{-- noty --}}
+    <link rel="stylesheet" href="{{ asset('assests/front/plugins/noty/noty.css') }}">
+    <script src="{{ asset('assests/front/plugins/noty/noty.min.js') }}"></script>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
+    @include('front.messages.session')

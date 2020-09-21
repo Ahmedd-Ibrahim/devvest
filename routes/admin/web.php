@@ -17,24 +17,23 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-//Auth::routes([
-//    'register' => false,
-//    'login'=>false
-//]);
 
 
 /* begin auth admin */
-Route::prefix('admin')->name('admin.')->group(function(){
+Route::prefix('admin')->name('admin.')->middleware('auth')->group(function(){
 
     /*   #################  begin admin routes  ################# */
 
     Route::get('/','adminController@index')->name('home');
 
-
+    // maill routes
     Route::resource('mail','mailController')->except(['create','update']);
 
     Route::post('mail/delete','mailController@delete')->name('mail.delete');
-
+      // start portfolio
+    Route::resource('portfolio', 'PortfolioController')->except(['show']);
+      // start testimony
+    Route::resource('testimony', 'TestimonyController')->except(['show']);
 
     /*   #################  End admin routes  ################# */
 });

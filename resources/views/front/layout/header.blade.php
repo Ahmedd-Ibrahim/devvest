@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png"
           href="{{asset('assests/front/images/logobar.png')}}">
     {{--icon--}}
+  
     <link rel="stylesheet" href="{{asset('assests/front/css/animate.css')}}">
     <link rel="stylesheet" href="{{asset('assests/front/css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('assests/front/css/owl.theme.default.min.css')}}">
@@ -31,6 +32,7 @@
         }
         * {font-family: Cairo, sans-serif;}
     </style>
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">

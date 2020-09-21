@@ -49,32 +49,22 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="box-tob">
+                    <div class="box-tob ">
                         <h5 class="footer-title text-center">يمكنك التواصل معنا عبر وسائل التواصل اﻵتية : </h5>
-                        <div></div>
-                            <div class="social-content">
-                                <div class="social-left">
-                                    <p>الفيسبوك</p>
-                                    <p>@Devvest</p>
-                                </div>
-                                <div class="social-right">
-                                    <a target="_blank" href="https://facebook.com/DevestCo">
-                                        <i class="fab fa-facebook fa-3x"></i>
-                                    </a>
-                                </div>
+                        <div class="row" >
+                            <div class="col-md-12">
+                                <a class="social-icons" target="_blank" href="https://facebook.com/DevestCo">
+                                    <i class="fab fa-facebook-f fa-2x"></i>
+                                </a>
+                                <a class="social-icons" target="_blank" href="https://twitter.com/Devest_co">
+                                    <i class="fab fa-twitter fa-3x"></i>
+                                </a>
+                                <a class="social-icons" target="_blank" href="https://www.instagram.com/devest_co/">
+                                  <i class="fab fa-instagram fa-3x"></i>
+                                </a>
                             </div>
+                        </div>
                         <div class="clearfix"></div>
-                            <div class="social-content">
-                                <div class="social-left">
-                                    <p>تويتر</p>
-                                    <p>@Devvest</p>
-                                </div>
-                                <div class="social-right">
-                                    <a target="_blank" href="https://twitter.com/Devest_co">
-                                        <i class="fab fa-twitter fa-3x"></i>
-                                    </a>
-                                </div>
-                            </div>
                     </div>
                 </div>
         </div>

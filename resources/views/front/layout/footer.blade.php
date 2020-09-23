@@ -6,13 +6,6 @@
     </div>
 </div>
 <a id="scrollTop"><i class="fas fa-chevron-up fa-2x"></i></a>
-<script src="{{asset('assests/front/js/particles.min.js')}}"></script>
-<script>
-    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-    particlesJS.load('particles-js', '{{asset('assests/front/js/particles.json')}}', function() {
-        console.log('callback - particles.js config loaded');
-    });
-</script>
 <footer class="text-center">
     <div class="container">
         <div class="row">
@@ -73,6 +66,13 @@
         جميع الحقوق محفوظه &copy;  Devest
     </p>
 </footer>
+<script src="{{asset('assests/front/js/particles.min.js')}}"></script>
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', '{{asset('assests/front/js/particles.json')}}', function() {
+        console.log('callback - particles.js config loaded');
+    });
+</script>
 <script src="{{asset('assests/custom/js/jquery/jquery.min.js')}}"></script>
 <script src="{{asset('assests/front/js/jquery-migrate-3.0.1.min.js')}}"></script>
 <script src="{{asset('assests/front/js/bootstrap.min.js')}}"></script>
@@ -83,6 +83,5 @@
 <script src="{{asset('assests/front/js/scrollax.min.js')}}"></script>
 <script src="{{asset('assests/front/js/all.min.js')}}"></script>
 <script src="{{asset('assests/front/js/main.js')}}"></script>
-<script src="{{asset('assests/front/js/contact.js')}}"></script>
 </body>
 </html>
